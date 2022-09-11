@@ -29,5 +29,4 @@ public class EmailController {
         // return ResponseEntity.created(null).build();
         return new ResponseEntity<>(emailModel, HttpStatus.CREATED);
     }
-    
 }
